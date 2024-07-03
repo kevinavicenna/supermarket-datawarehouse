@@ -62,8 +62,6 @@
 --(4, 4, 4, 2, 4, 4, 1, 1.20),
 --(5, 5, 5, 3, 5, 5, 4, 10.00);
 
-
--- Insert additional data into Products
 INSERT INTO Products (ProductID, ProductName, CategoryID, SupplierID, Price) VALUES
 (6, 'Orange', 1, 1, 0.60),
 (7, 'Grapes', 1, 1, 2.00),
@@ -86,7 +84,6 @@ INSERT INTO Products (ProductID, ProductName, CategoryID, SupplierID, Price) VAL
 (24, 'Croissant', 4, 4, 1.20),
 (25, 'Lemonade', 5, 5, 2.00);
 
--- Insert additional data into Customers
 INSERT INTO Customers (CustomerID, CustomerName, CustomerEmail, Address, City, State, ZipCode) VALUES
 (6, 'Frank Harris', 'frank.harris@example.com', '305 Cedar St', 'Springfield', 'IL', '62706'),
 (7, 'Grace Lewis', 'grace.lewis@example.com', '408 Walnut St', 'Springfield', 'IL', '62707'),
@@ -109,7 +106,6 @@ INSERT INTO Customers (CustomerID, CustomerName, CustomerEmail, Address, City, S
 (24, 'Xander Long', 'xander.long@example.com', '212 Oak St', 'Springfield', 'IL', '62724'),
 (25, 'Yara Bennett', 'yara.bennett@example.com', '313 Pine St', 'Springfield', 'IL', '62725');
 
--- Insert additional data into Time
 INSERT INTO Time (TimeID, Date, DayOfWeek, Month, Quarter, Year) VALUES
 (6, '2024-01-06', 'Saturday', 1, 1, 2024),
 (7, '2024-01-07', 'Sunday', 1, 1, 2024),
@@ -132,7 +128,6 @@ INSERT INTO Time (TimeID, Date, DayOfWeek, Month, Quarter, Year) VALUES
 (24, '2024-01-24', 'Wednesday', 1, 1, 2024),
 (25, '2024-01-25', 'Thursday', 1, 1, 2024);
 
--- Insert additional data into Sales
 INSERT INTO Sales (SaleID, ProductID, CustomerID, StoreID, EmployeeID, TimeID, Quantity, TotalAmount) VALUES
 (6, 6, 6, 1, 1, 6, 15, 9.00),
 (7, 7, 7, 1, 2, 7, 8, 16.00),
